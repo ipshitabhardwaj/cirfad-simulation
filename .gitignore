@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.nbi
+*.nbc
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Large regenerated simulation output (about 80 MB; recreate with: python sim.py)
+conv.npz
+sim.log
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
